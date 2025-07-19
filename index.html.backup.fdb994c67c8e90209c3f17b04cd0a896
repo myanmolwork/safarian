@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAFARIAN | YOUR TRUE SAFAR GUIDE</title>
+
+  <!-- META tags are here -->
+
+  <meta name="description"
+    content="Safarian: Your ultimate guide to top travel destinations. Discover places, get tips, and plan your next adventure with expert insights. Explore now!">
+
+  <meta name="keywords"
+    content="travel, travel destinations, travel guides, travel tips, places to visit, travel planning, vacation ideas, adventure travel, Safarian, safarian travel, safarian guide, travel blog, travel advice, travel information, tourist attractions, world travel, travel inspiration, TripAdvisor, Lonely Planet, Expedia, Booking.com, Airbnb, travel deals, travel expert, travel recommendations, safar, sarfar">
+
+  <!-- Favicon for Browsers -->
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Apple Touch Icon for iOS -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Android Chrome Icons -->
+  <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+
+  <!-- Web Manifest for Progressive Web App -->
+  <link rel="manifest" href="site.webmanifest">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div class="navigate">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="logo" src="Safarian_Logo_2-removebg-preview-removebg-preview.webp" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item hidden">
+                <a class="nav-link" href="#">Guides</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destination
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="New Delhi - Safarian.html">New Delhi</a></li>
+                  <li><a class="dropdown-item" href="Agra - Safarian.html">Agra</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item hidden">
+                <a class="nav-link" href="">coming Soon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="aboutus.html">AboutUs</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="main">
+      <div class="info">
+        <h1>SAFARIAN</h1>
+        <div class="baseline"></div>
+        <h2>YOUR TRUE SAFAR GUIDE</h2>
+      </div>
+
+    </div>
+    <button class="scroll-down" onclick="scrollDown()">
+      <i class="fa-solid fa-arrow-down"></i>
+    </button>
+  </div>
+
+
+
+  <!-- Section 1-->
+
+  <section class="section1" id="section1">
+    <div class="container">
+      <div class="row">
+        <div class="col cara">
+
+          <ul class='slider'>
+            <li class='item' style="background-image: url('hawamahal.webp')">
+              <div class='content'>
+                <h2 class='title'>"Hawa Mahal"</h2>
+                <p class='description'>Discover the enchanting Hawa Mahal, Jaipur's "Palace of Winds," with its stunning
+                  honeycomb facade and intricate latticework, offering a glimpse into Rajasthan's royal heritage and
+                  architectural brilliance.
+
+                </p>
+                <a href="New Delhi - Safarian.html" class="content-link">Read More</a>
+              </div>
+            </li>
+            <li class='item' style="background-image: url('indiagate.webp')">
+              <div class='content'>
+                <h2 class='title'>"India Gate"</h2>
+                <p class='description'>Explore the majestic India Gate in New Delhi, a monumental arch honoring fallen
+                  soldiers, with its grand architecture and historic significance, captivating visitors from around the
+                  world.
+
+                </p>
+                <a href="India Gate.html" class="content-link">Read More</a>
+              </div>
+            </li>
+            <li class='item' style="background-image: url('lodhi.webp')">
+              <div class='content'>
+                <h2 class='title'>"Lodhi Garden"</h2>
+                <p class='description'> Discover the serene Lodhi Garden in New Delhi, a lush haven featuring historic
+                  tombs, beautiful landscapes, and a perfect blend of nature and Mughal architecture.
+
+
+                </p>
+                <a href="Lodhi Garden.html" class="content-link">Read More</a>
+              </div>
+            </li>
+            <li class='item' style="background-image: url('tajmahal.webp')">
+              <div class='content'>
+                <h2 class='title'>"The Taj Mahal"</h2>
+                <p class='description'>
+                  Discover the majestic Taj Mahal in Agra, a symbol of love and architectural marvel. Admire its
+                  gleaming marble, intricate carvings, and serene gardens, offering a timeless blend of history, beauty,
+                  and romance.
+
+
+                </p>
+                <a href="The Taj Mahal.html" class="content-link">Read More</a>
+              </div>
+            </li>
+          
+
+          </ul>
+          <nav class='navs'>
+            <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+            <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+          </nav>
+
+
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col newslat text-center">
+          <div class="head-for-news">
+            <h4>Subscribe to Our Newsletter</h4>
+            <div class="hor-line">
+            </div>
+
+          </div>
+
+
+          <div class="subscribe-container">
+
+            <form action="#" method="post" class="subscribe-form">
+              <input type="email" class="subscribe-input" placeholder="Enter your email" required>
+              <button type="submit" class="subscribe-button">Subscribe</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+
+
+  <section class="popular-cities container">
+
+    <h4>Prime City Destinations</h4>
+    <div class="horr-line">
+    </div>
+    <div class="container containeredd">
+      <div class="card">
+        <a href="New Delhi - Safarian.html"> <img src="Delhi.webp" alt="cover">
+          <h3>New Delhi</h3>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="#"> <img src="Mumbai.webp" alt="cover">
+          <h3>Mumbai</h3>
+        </a>
+
+      </div>
+
+      <div class="card">
+        <a href="Agra - Safarian.html"> <img src="Agra.webp" alt="cover">
+          <h3>Agra</h3>
+        </a>
+
+      </div>
+      <div class="card">
+        <a href="#"> <img src="Goa.webp" alt="cover">
+          <h3>Goa</h3>
+
+        </a>
+      </div>
+      <div class="card">
+        <a href="#"> <img src="Shimla.webp" alt="cover">
+          <h3>Shimla</h3>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#"> <img src="hyderabad.webp" alt="cover">
+          <h3>Hyderabad</h3>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#"> <img src="Haridwar.webp" alt="cover">
+          <h3>Haridwar</h3>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#"> <img src="Jaipu.webp" alt="cover">
+          <h3>Jaipur</h3>
+        </a>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+
+
+
+
+
+  <!-- Section 2-->
+
+  <section class="section2 ">
+    <div class="conatiner contain">
+      <div class="head-text-hax">
+        <h4>Plan Your Trip</h4>
+        <div class="hore-line">
+        </div>
+      </div>
+
+      <div class="containered">
+
+
+
+        <div class="hexagon">
+
+          <a href="#"><img class="mega " src="Agra.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Agra</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+          <a href="New Delhi - Safarian.html"> <img class="mega " src="Delhi.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Delhi</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+          <a href="#"> <img class="mega " src="GardenOf5Senses.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Garden of 5 Senses</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+
+          <a href="#"> <img class="mega " src="Goa.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Goa</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+          <a href="#"> <img class="mega " src="Haridwar.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Haridwar</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+          <a href="#"> <img class="mega " src="hawamahal.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>HawaMahal</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+          <a href="#"> <img class="mega " src="hyderabad.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Hyderbad</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+          <a href="#"> <img class="mega " src="tajmahal.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Taj Mahal</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+          <a href="#"> <img class="mega " src="Shimla.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Shimla</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="hexagon">
+          <a href="#"> <img class="mega " src="lodhi.webp" alt="place">
+            <div class="imageText">
+              <div class="imageTextHeader">
+                <h2>Lodhi Garden</h2>
+              </div>
+
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+  <!-- Section 3-->
+
+
+
+  <section class="section3 footer">
+    <div class="container">
+      <div class="row product">
+
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="container">
+
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"><img src="Safarian_Logo_2-removebg-preview-removebg-preview.webp"
+                      class="img-fluid" alt="logo"></a>
+                </div>
+                <div class="footer-text">
+                  <p>At SAFARIAN, we are passionate about connecting you with the most breathtaking safari destinations
+                    and experiences. Whether you're seeking adventure, wildlife, or cultural exploration, we guide you
+                    to the heart of the wild. Your journey starts here.</p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="sitemap.html">Sitemap</a></li>
+                  <li><a>services</a></li>
+                  <li><a>portfolio</a></li>
+                  <li><a href="privacy_policy.html" target="_blank">Privacy Policy</a></li>
+                  <li><a href="TERMS AND CONDITIONS.html" target="_blank">ToS</a></li>
+                  <li><a href="ContactUs.html">Contact Us</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="Disclaimer.html" target="_blank">Disclaimer</a></li>
+                  <li><a href="cookiepolicy.html" target="_blank">Cookie Policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                </div>
+                <div class="subscrib-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address">
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row coppp">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>Copyright &copy; 2024, All Right Reserved Safarian</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
+
+
+  <!-- Js Links Here -->
+
+
+  <script>
+    function scrollDown() {
+      const section1 = document.getElementById('section1');
+      section1.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+  <script>
+    const slider = document.querySelector('.slider');
+
+    function activate(e) {
+      const items = document.querySelectorAll('.item');
+      e.target.matches('.next') && slider.append(items[0])
+      e.target.matches('.prev') && slider.prepend(items[items.length - 1]);
+    }
+
+    document.addEventListener('click', activate, false);
+
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/4f861aed7b.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
